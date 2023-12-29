@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto SlideShow</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <a href="index.html" class="logo">ViajarIn</a>
+            <div class="header--right">
+                <a class="active" href="#home">Home</a>
+                <a href="#servicos">Nossos serviços</a>
+                <a href="#planos">Planos de Viagem</a>
+            </div>
+        </div>
+        <div class="slider">
+            <div class="slider--controls">
+                <div class="slider--control" onclick="goPrev()">
+                    <img src="/images/left-arrow.png" alt="seta clique esquerda"></div>
+                <div class="slider--control" onclick="goNext()">
+                <img src="/images/right-arrow.png" alt="seta clique direita"></div>
+            </div>
+            <div class="slider--width">
+                <div class="slider--item" style="background-image: url(/images/imagem1.jpg);">
+                    <h1 class="slider--titulo">Viaje para onde quiser!</h1><br/>
+                    <span class="slider--descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, eaque repellendus aut veritatis voluptatem illo, nemo adipisci blanditiis voluptate, hic quis ab quia fugit! Amet, tempora! Explicabo hic provident sit.</span>
+                </div>
+                
+                <div class="slider--item" style="background-image: url(/images/imagem2.jpg);">
+                    <h1 class="slider--titulo">Conheça novos lugares</h1><br/>
+                    <span class="slider--descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro accusantium numquam aut ipsa praesentium rem, exercitationem alias, veritatis et, optio nobis aspernatur dicta sint commodi sequi corrupti laborum enim asperiores.</span>
+                </div>
+                <div class="slider--item" style="background-image: url(/images/imagem3.jpg);">
+                    <h1 class="slider--titulo">Faça a sua reserva</h1><br/>
+                    <span class="slider--descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est obcaecati at tenetur voluptas. Temporibus neque, natus obcaecati et id voluptatem delectus maxime beatae sequi voluptate eos optio itaque officiis harum.</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <script src="/assets/script.js"></script>
+</body>
+</html>
